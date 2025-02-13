@@ -1,0 +1,17 @@
+{
+  "name": "http-module",
+  "version": "1.0.0",
+  "description": "learn node",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "express": "^4.21.1",
+    "fs": "^0.0.1-security",
+    "yargs": "^17.7.2"
+  }
+}
