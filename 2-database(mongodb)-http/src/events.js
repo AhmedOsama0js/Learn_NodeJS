@@ -9,8 +9,8 @@ eventEmitter.on("recordAdded", (record) => {
   );
 });
 
-eventEmitter.on("recordDeleted", (name) => {
-  console.log(chalk.yellow(`Record deleted: ${name} 🗑️`));
+eventEmitter.on("recordDeleted", () => {
+  console.log(chalk.yellow(`Record deleted successful 🗑️`));
 });
 
 eventEmitter.on("recordsListed", (records) => {
@@ -21,7 +21,7 @@ eventEmitter.on("recordsListed", (records) => {
 
 eventEmitter.on("recordUpdated", (records) => {
   console.log(
-    chalk.green(`The record is name  ${records.name} update  successfully 📜`)
+    chalk.green(`The record is name  (${records.name}) update  successfully 📜`)
   );
 });
 

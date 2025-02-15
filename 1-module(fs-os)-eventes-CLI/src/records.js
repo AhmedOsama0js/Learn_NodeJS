@@ -34,7 +34,7 @@ const addRecord = (name, age) => {
   const duplicate = records.find((record) => record.name === name);
 
   if (duplicate) {
-    console.log(chalk.yellow("name is already exists ⚠️"));
+    console.log(chalk.yellow(`name is (${name}) already exists ⚠️`));
     return;
   }
   const newRecord = { name, age };
@@ -74,7 +74,7 @@ const updateRecord = (name, age) => {
   const records = loadRecords();
   const recordIndex = records.findIndex((record) => record.name === name);
   if (recordIndex === -1) {
-    console.log(chalk.yellow("name is not exist ⚠️"));
+    console.log(chalk.yellow(`name (${name}) is not exist ⚠️`));
     return;
   }
 
@@ -89,11 +89,11 @@ const updateRecord = (name, age) => {
 const searchRecord = (name) => {
   const records = loadRecords();
   const recordName = records.find((record) => record.name === name);
-  if (recordName.length === 0) {
-    console.log(chalk.yellow("name is not exist ⚠️"));
+
+  if (recordName === undefined) {
+    console.log(chalk.yellow(`name (${name}) is not exist ⚠️`));
     return;
   }
-  console.log(recordName);
   eventEmitter.emit("recordSearch", recordName);
 };
 

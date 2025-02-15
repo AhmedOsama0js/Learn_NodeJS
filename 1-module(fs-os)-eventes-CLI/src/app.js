@@ -8,12 +8,11 @@ const {
   searchRecord,
 } = require("./records");
 
-
-
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
 });
+
 
 const showMenu = () => {
   console.log("\n🔹 chose");
@@ -24,6 +23,7 @@ const showMenu = () => {
   console.log("5️⃣  search");
   console.log("0️⃣  Exit");
 
+  
   rl.question("➡️  inter your chose: ", (choice) => {
     if (choice === "1") {
       listRecords();
@@ -40,7 +40,7 @@ const showMenu = () => {
       console.log(chalk.green("👋 good by"));
       rl.close();
     } else {
-      console.log(chalk.red("⚠️ error in your chose try again"));
+      console.log(chalk.red(" error in your chose try again ⚠️"));
       showMenu();
     }
   });
@@ -56,7 +56,7 @@ const askForAddRecord = () => {
   });
 };
 
-//update record 
+//update record
 const askForUpdateRecord = () => {
   rl.question("name need update is 📝: ", (name) => {
     rl.question("name need update is  🎂 : ", (age) => {
