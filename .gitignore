@@ -1,7 +1,15 @@
 # production
 /1-module(fs-os)-eventes-CLI/node_modules
+# 
 /2-server-http/node_modules
+# 
 /3-express.js/node_modules
+# 
 /4-mongodb/node_modules
 /4-mongodb/.env
-/4-mongodb/
+# 
+/5-learn-mongoSchema
+/5-learn-mongoSchema/node_modules
+/5-learn-mongoSchema/.env
+# 
+/6- Mongoose-And-express
