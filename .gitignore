@@ -8,8 +8,16 @@
 /4-mongodb/node_modules
 /4-mongodb/.env
 # 
-/5-learn-mongoSchema
-/5-learn-mongoSchema/node_modules
-/5-learn-mongoSchema/.env
+/5- Mongoose-And-express/node_modules
+/5- Mongoose-And-express/.env
+
 # 
-/6- Mongoose-And-express
+/6-JWT-bcryptjs-OS-Hardware-Control
+/7-automation-scraping
+
+
+
+
+
+# 
+/X-learn-mongoSchema
