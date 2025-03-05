@@ -12,7 +12,8 @@
 /5- Mongoose-And-express/.env
 
 # 
-/6-JWT-bcryptjs-OS-Hardware-Control
+/6-JWT-bcryptjs-OS-Hardware-Control/node_modules
+/6-JWT-bcryptjs-OS-Hardware-Control/.env
 /7-automation-scraping
 
 
