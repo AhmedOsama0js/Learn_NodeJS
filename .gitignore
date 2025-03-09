@@ -14,7 +14,16 @@
 # 
 /6-JWT-bcryptjs-OS-Hardware-Control/node_modules
 /6-JWT-bcryptjs-OS-Hardware-Control/.env
-/7-automation-scraping
+
+
+
+# 
+/7-automation-scraping/node_modules
+/7-automation-scraping/.env
+
+
+# 
+/8-webSockets-webRTC
 
 
 
