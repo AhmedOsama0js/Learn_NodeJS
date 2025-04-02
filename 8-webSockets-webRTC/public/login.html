@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./static/chat-talk-logo-vector-23235463-removebg-preview.png"
+    />
+
+    <title>تسجيل الدخول</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./css/login.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="login-container">
+      <h3>تسجيل الدخول</h3>
+      <form onsubmit="login(event)">
+        <div class="mb-3">
+          <label for="email" class="form-label">البريد الإلكتروني</label>
+          <input
+            type="email"
+            id="email"
+            class="form-control"
+            placeholder="أدخل بريدك الإلكتروني"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">كلمة المرور</label>
+          <input
+            type="password"
+            id="password"
+            class="form-control"
+            placeholder="أدخل كلمة المرور"
+            required
+          />
+        </div>
+        <div class="divider"></div>
+        <button type="submit" class="btn btn-custom">تسجيل الدخول</button>
+      </form>
+    </div>
+    <script src="./js/login.js"></script>
+  </body>
+</html>
